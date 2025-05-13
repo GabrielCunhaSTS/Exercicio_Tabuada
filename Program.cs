@@ -9,3 +9,7 @@ Console.WriteLine($"\nTabuada do número: {numero}");
 for (int x = 0; x <= 10; x++){ 
     Console.WriteLine($"{numero} x {x} = {numero * x}"); 
 }
+
+Console.Write("Digite qualquer tecla para finalizar o programa!");
+Console.ReadKey();
+Console.Clear();
