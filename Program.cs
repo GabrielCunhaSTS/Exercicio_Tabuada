@@ -1,0 +1,10 @@
+﻿int numero; 
+Console.Write("Digite um número para ver sua tabuada: "); 
+
+while (!int.TryParse(Console.ReadLine(), out numero)) {
+    Console.Write("Resposta inválida. Tente novamente digitando um número inteiro: "); 
+} 
+Console.WriteLine($"\nTabuada do número: {numero}\n"); 
+for (int x = 0; x <= 10; x++){ 
+    Console.WriteLine($"{numero} x {x} = {numero * x}"); 
+}
