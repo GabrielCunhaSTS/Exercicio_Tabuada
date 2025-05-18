@@ -1,5 +1,7 @@
 ﻿int numero;
 
+Console.WriteLine("------ Bem-vindo(a) ao programa de tabuadas ------");
+
 Console.Write("Digite um número para ver sua tabuada: "); 
 
 while (!int.TryParse(Console.ReadLine(), out numero)) {
