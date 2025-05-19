@@ -8,8 +8,8 @@ while (!int.TryParse(Console.ReadLine(), out numero)) {
     Console.Write("Resposta inválida. Tente novamente digitando um número inteiro: "); 
 } 
 Console.WriteLine($"\nTabuada do número: {numero}"); 
-for (int x = 0; x <= 10; x++){ 
-    Console.WriteLine($"{numero} x {x} = {numero * x}"); 
+for (int i = 0; i <= 10; i++){ 
+    Console.WriteLine($"{numero} x {i} = {numero * i}"); 
 }
 
 Console.Write("Digite qualquer tecla para finalizar o programa!");
