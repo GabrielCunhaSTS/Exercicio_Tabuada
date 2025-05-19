@@ -7,7 +7,7 @@ Console.Write("Digite um número para ver sua tabuada: ");
 while (!int.TryParse(Console.ReadLine(), out numero)) {
     Console.Write("Resposta inválida. Tente novamente digitando um número inteiro: "); 
 } 
-Console.WriteLine($"\nTabuada do número: {numero}"); 
+Console.WriteLine($"\nTabuada do número: {numero}\n"); 
 for (int i = 0; i <= 10; i++){ 
     Console.WriteLine($"{numero} x {i} = {numero * i}"); 
 }
