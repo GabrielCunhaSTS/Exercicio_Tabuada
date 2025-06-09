@@ -1,4 +1,5 @@
-﻿int numero;
+﻿Console.Clear();
+int numero;
 
 Console.WriteLine("------ Bem-vindo(a) ao programa de tabuadas ------");
 
